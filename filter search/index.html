@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Table name</h2>
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search with any text..">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Mob</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>USA</td>
+                    <td>01865xxx</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Canada</td>
+                    <td>01854xxx</td>
+                </tr>
+                <tr>
+                    <td>Jack White</td>
+                    <td>UK</td>
+                    <td>01695xxx</td>
+                </tr>
+                <tr>
+                    <td>Lucy Black</td>
+                    <td>Australia</td>
+                    <td>01917xxx</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>Germany</td>
+                    <td>04564xxx</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
